@@ -1,0 +1,2 @@
+sample_id,bins_adata,bins_parquet,scale_fac,he_zarr,he_tiff,custom_cells_json
+crop,example/input/crop_square_002um_filtered_feature_bc_matrix.h5,example/input/crop_tissue_positions.parquet,example/input/crop_scalefactors_json.json,example/input/crop.ome.zarr,example/input/crop_s0.ome.tiff,example/output/crop/crop_s0_cells.json

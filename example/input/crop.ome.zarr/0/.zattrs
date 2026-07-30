@@ -1,0 +1,112 @@
+{
+  "multiscales" : [ {
+    "metadata" : {
+      "method" : "loci.common.image.SimpleImageScaler",
+      "version" : "Bio-Formats 7.3.1"
+    },
+    "axes" : [ {
+      "name" : "t",
+      "type" : "time"
+    }, {
+      "name" : "c",
+      "type" : "channel"
+    }, {
+      "name" : "z",
+      "type" : "space"
+    }, {
+      "unit" : "micrometer",
+      "name" : "y",
+      "type" : "space"
+    }, {
+      "unit" : "micrometer",
+      "name" : "x",
+      "type" : "space"
+    } ],
+    "name" : "Series 0",
+    "datasets" : [ {
+      "path" : "0",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.10999999999999999, 0.10999999999999999 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "1",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.21999999999999997, 0.21999999999999997 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "2",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.43999999999999995, 0.43999999999999995 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "3",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 0.8799999999999999, 0.8799999999999999 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "4",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 1.7599999999999998, 1.7599999999999998 ],
+        "type" : "scale"
+      } ]
+    }, {
+      "path" : "5",
+      "coordinateTransformations" : [ {
+        "scale" : [ 1.0, 1.0, 1.0, 3.5199999999999996, 3.5199999999999996 ],
+        "type" : "scale"
+      } ]
+    } ],
+    "version" : "0.4"
+  } ],
+  "omero" : {
+    "channels" : [ {
+      "color" : "FF0000",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 0",
+      "window" : {
+        "min" : 32.0,
+        "max" : 240.0,
+        "start" : 32.0,
+        "end" : 240.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    }, {
+      "color" : "00FF00",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 1",
+      "window" : {
+        "min" : 13.0,
+        "max" : 215.0,
+        "start" : 13.0,
+        "end" : 215.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    }, {
+      "color" : "0000FF",
+      "coefficient" : 1,
+      "active" : true,
+      "label" : "Channel 2",
+      "window" : {
+        "min" : 89.0,
+        "max" : 236.0,
+        "start" : 89.0,
+        "end" : 236.0
+      },
+      "family" : "linear",
+      "inverted" : false
+    } ],
+    "rdefs" : {
+      "defaultT" : 0,
+      "model" : "color",
+      "defaultZ" : 0
+    }
+  }
+}
